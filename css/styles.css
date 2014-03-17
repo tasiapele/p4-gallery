@@ -161,27 +161,100 @@ a{
 }
 
 
-.pele:hover .content-pele, .katie:hover .content-katie {
+
+
+.content-boeing {
+  position: relative;
+  left: 0;
+  height: 150px;
+  width: 300px;
+  background: url(http://i72.photobucket.com/albums/i179/tasiakins/boeingclip_zps40648548.jpg) no-repeat center;
+  background-size: cover;
+  transition: all 1s;
+  z-index: 50;
+
+}
+
+.content-bldg {
+  position: relative;
+  left: 0;
+  height: 150px;
+  width: 300px;
+  background: url(http://farm4.staticflickr.com/3829/13209382724_04d646e6d3.jpg) no-repeat center;
+  background-size: cover;
+  transition: all 1s;
+  z-index: 50;
+}
+
+.content-cane {
+  position: relative;
+  top: 0;
+  height: 150px;
+  width: 150px;
+  background: url(https://m1.behance.net/rendition/modules/97671547/disp/6cd95e69ab98ec1543d614bdfdcea88e.jpg) no-repeat center;
+  background-size: cover;
+  transition: all 1s;
+  z-index: 50;
+}
+
+.content-dread {
+  position: relative;
+  top: 0;
+  height: 150px;
+  width: 150px;
+  background: url(https://m1.behance.net/rendition/modules/97708631/disp/86c1b1c689a4b982f50dcc32e48a8d12.jpg) no-repeat center;
+  background-size: cover;
+  transition: all 1s;
+  z-index: 50;
+}
+
+.content-spider {
+  position: relative;
+  top: 0;
+  height: 310px;
+  width: 400px;
+  background: url(https://m1.behance.net/rendition/modules/91722697/disp/51db7f73e2e8abebe778f9babff69eca.jpg) no-repeat center;
+  background-size: cover;
+  transition: all 1s;
+  z-index: 50;
+  float:left;
+}
+
+.pele:hover .content-pele, 
+.katie:hover .content-katie, 
+.boeing:hover .content-boeing, 
+.bldg:hover .content-bldg {
   left: -100px;
 }
 
-.pele:hover .seeallmd, .katie:hover .seeallmd{
+.pele:hover .seeallmd, 
+.katie:hover .seeallmd, 
+.boeing:hover .seeallmd,
+.bldg:hover .seeallmd {
   right: 0;
 }
 
-.goku:hover .content-goku, .tesla:hover .content-tesla {
+.goku:hover .content-goku, 
+.tesla:hover .content-tesla,
+.cane:hover .content-cane,
+.dread:hover .content-dread {
   top: -100px;
 }
 
-.goku:hover .seeallsm, .tesla:hover .seeallsm {
+.goku:hover .seeallsm, 
+.tesla:hover .seeallsm,
+.cane:hover .seeallsm,
+.dread:hover .seeallsm {
   bottom: 0;
 }
 
-.moon:hover .content-moon {
+.moon:hover .content-moon, 
+.spider:hover .content-spider {
   top: 100px;
 }
 
-.moon:hover .seealllg {
+.moon:hover .seealllg,
+.spider:hover .seealllg {
   top: 0;
 }
 
