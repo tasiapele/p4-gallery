@@ -1,7 +1,5 @@
 /* Your Website Styles */
 html {
-  height: 100%;
-  width: 100%;
   background: url("../img/cartographer.png");
   font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -25,6 +23,10 @@ p{
   color: #F7F7F7;
 }
 
+a{
+  text-decoration: none;
+}
+/*images*/
 .span_11{
   margin-bottom: 40px;
 }
@@ -79,11 +81,6 @@ p{
   z-index: 100;
 }
 
-.seeallmd h1 {
-  font-size: 6em;
-  text-align: center;
-  margin-top: 10px;
-}
 
 .seeallsm {
   width: 150px;
@@ -95,11 +92,6 @@ p{
   z-index: 100;
 }
 
-.seeallsm h1 {
-  font-size: 3em;
-  text-align: center;
-  margin-top: -10px;
-}
 
 .seealllg {
   width: 400px;
@@ -111,11 +103,6 @@ p{
   z-index: 100;
 }
 
-.seealllg h1 {
-  font-size: 6em;
-  text-align: center;
-  margin-top: -20px;
-}
 
 .content-katie {
   position: relative;
@@ -126,6 +113,7 @@ p{
   background-size: cover;
   transition: all 1s;
   z-index: 50;
+
 }
 
 .content-pele {
@@ -199,6 +187,7 @@ p{
 
 
 
+
 /*navigation*/
 
 ul{
@@ -251,38 +240,6 @@ nav a:active {
 #port a:hover {
   background: url("../img/pen.png") no-repeat left center;
 } 
-/*
-	Theme controls how everything looks in Gallery CSS.
-*/
-.gallery {
-  position: relative;
-}
-.gallery .item {
-  height: 400px;
-  overflow: hidden;
-  text-align: center;
-  background: #4d87e2;
-}
-.gallery .controls {
-  position: absolute;
-  bottom: -120px;
-  width: 100%;
-  text-align: center;
-}
-
-.gallery .controls img {
-  border: 5px solid #000;
-}
-
-.gallery .control-button {
-  display: inline-block;
-  margin: 0 .02em;
-  font-size: 3em;
-  text-align: center;
-  text-decoration: none;
-  transition: color .1s;
-}
-
 
 /* Show Grid */
 .showgrid {
