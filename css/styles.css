@@ -1,18 +1,256 @@
 /* Your Website Styles */
-
-
-
-/* Gallery Stying */
-.gallery .control-button {
-  color: #ccc;
-  color: rgba(255, 255, 255, 0.4);
+html {
+  height: 100%;
+  width: 100%;
+  background: url("../img/cartographer.png");
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.gallery .control-button:hover {
-  color: white;
-  color: rgba(255, 255, 255, 0.8);
+
+h3{
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 15px 10px 0px 10px;
+  color: #B10000;
 }
 
+h5{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: italic;
+  color: #383838;
+  margin: 15px 10px 0px 10px;
+}
+
+p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #F7F7F7;
+}
+
+.span_11{
+  margin-bottom: 40px;
+}
+
+.gallery {
+  width: 880px;
+  margin: 0 auto;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.sm {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background: #F7F7F7;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.md {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  background: #F7F7F7;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.lg {
+  position: relative;
+  width: 400px;
+  height: 310px;
+  background: #F7F7F7;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.seeallmd {
+  width: 100px;
+  height: 150px;
+  background: #F7F7F7;
+  position: absolute;
+  right: -100px;
+  transition: all 1s;
+  z-index: 100;
+}
+
+.seeallmd h1 {
+  font-size: 6em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.seeallsm {
+  width: 150px;
+  height: 100px;
+  background: #F7F7F7;
+  position: absolute;
+  bottom: -100px;
+  transition: all 1s;
+  z-index: 100;
+}
+
+.seeallsm h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.seealllg {
+  width: 400px;
+  height: 100px;
+  background: #F7F7F7;
+  position: absolute;
+  top: -100px;
+  transition: all 1s;
+  z-index: 100;
+}
+
+.seealllg h1 {
+  font-size: 6em;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.content-katie {
+  position: relative;
+  left: 0;
+  height: 150px;
+  width: 300px;
+  background: url(http://farm4.staticflickr.com/3763/13209557894_1d36fb0e86_b.jpg) no-repeat center;
+  background-size: cover;
+  transition: all 1s;
+  z-index: 50;
+}
+
+.content-pele {
+  position: relative;
+  left: 0;
+  height: 150px;
+  width: 300px;
+  background: url(https://m1.behance.net/rendition/modules/105305903/disp/ed19179b50ce65107dd4e7fde865ac1f.png) no-repeat center;
+  background-size: cover;
+  transition: all 1s;
+  z-index: 50;
+}
+
+.content-goku {
+  position: relative;
+  top: 0;
+  height: 150px;
+  width: 150px;
+  background: url(https://m1.behance.net/rendition/modules/91722693/disp/eebfa3613f5a6b773c52603109edea09.jpg) no-repeat center;
+  background-size: cover;
+  transition: all 1s;
+  z-index: 50;
+}
+
+.content-tesla {
+  position: relative;
+  top: 0;
+  height: 150px;
+  width: 150px;
+  background: url(http://i72.photobucket.com/albums/i179/tasiakins/Teslaredo_zps1810a3a3.jpg) no-repeat center;
+  background-size: cover;
+  transition: all 1s;
+  z-index: 50;
+}
+
+.content-moon {
+  position: relative;
+  top: 0;
+  height: 310px;
+  width: 400px;
+  background: url(https://m1.behance.net/rendition/modules/91724509/disp/347d3631698e5216f52229cdfaa2df71.jpg) no-repeat center;
+  background-size: cover;
+  transition: all 1s;
+  z-index: 50;
+}
+
+
+.pele:hover .content-pele, .katie:hover .content-katie {
+  left: -100px;
+}
+
+.pele:hover .seeallmd, .katie:hover .seeallmd{
+  right: 0;
+}
+
+.goku:hover .content-goku, .tesla:hover .content-tesla {
+  top: -100px;
+}
+
+.goku:hover .seeallsm, .tesla:hover .seeallsm {
+  bottom: 0;
+}
+
+.moon:hover .content-moon {
+  top: 100px;
+}
+
+.moon:hover .seealllg {
+  top: 0;
+}
+
+
+
+/*navigation*/
+
+ul{
+  margin: 16px 50px 16px 0px;
+  color: #B10000;
+}
+
+li{
+  color: #B10000;
+  text-align: left;
+}
+
+/* Base Nav Styling */
+nav{
+  background: #F7F7F7;
+  color: #B10000;
+
+}
+
+nav li {
+  float: right;
+  list-style: none;
+  margin: 12px 10px 12px 0px;
+  color:#B10000;
+}
+ 
+/* Link States */
+nav a:link,
+nav a:visited {
+  color: ;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: #B10000;
+}
+ 
+nav a:hover,
+nav a:active {
+  background: #B10000;
+
+}
+
+#bio a:hover {
+  background: url("../img/print.png") no-repeat left center;
+}
+
+#resume a:hover {
+  background: url("../img/clip.png") no-repeat left center;
+}
+
+#port a:hover {
+  background: url("../img/pen.png") no-repeat left center;
+} 
 /*
 	Theme controls how everything looks in Gallery CSS.
 */
